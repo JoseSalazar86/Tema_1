@@ -1,0 +1,35 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package tema_1;
+
+import java.util.*;
+
+/**
+ *
+ * @author Jose Salazar
+ */
+public class Ejercicio5 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner sc=new Scanner(System.in);
+        int  cantidad;
+        double iva=0.21;
+        
+        System.out.println("introduce una cantidad");
+        cantidad =sc.nextInt();
+        System.out.println("la cantidad del iva es: "+cantidad*iva);
+       
+        /*iva=cantidad*iva;
+       System.out.println("el iva es: "+iva);
+       iva=cantidad+iva;
+       System.out.println("la cantidad con iva seria: "+iva);*/
+    }
+    
+}
