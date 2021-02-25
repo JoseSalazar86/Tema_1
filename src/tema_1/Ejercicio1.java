@@ -23,6 +23,7 @@ public class Ejercicio1 {
               System.out.println("el primer numero es: "+num1);
               System.out.println("el segundo numero es: "+num2);
               System.out.println("la media de los dos numeros es: "+(num1+num2)/2);
+              System.out.println("hola");
     }
     
 }
